@@ -1,1 +1,8 @@
 git remote add origin https://github.com/Felipe1540/NLW.git
+
+git add .
+
+git commit -m ""
+
+git push
+
