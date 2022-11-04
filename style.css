@@ -58,3 +58,30 @@ header {
     font-size: 14px;
     text-transform: uppercase; /*passando texto para todo maiusculo*/
 }
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /*espeaço entre os elementos*/
+
+    width: 270px;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card ul li + li { /*Procura um li que exista antes dele*/
+    padding-top: 24px;
+    border-top:  1px solid #323238;
+}
+
+.card ul li strong {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 125%;
+
+    color: #E1E1E6;
+}
